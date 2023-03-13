@@ -231,3 +231,32 @@ h3{
   padding-top: 5px;
   font-size: 20px;
 }
+
+/*=================== footer =======================*/
+.footer{
+  padding: 51px 0;
+}
+
+.social-list{
+  max-width: 232px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.social-image{
+  fill:#21243D;
+  width: 30px;
+  height: 30px;
+}
+
+.social-list__item:hover .social-image{
+  fill:#dd0fb1;
+}
+
+.footer p{
+  font-size: 14px;
+  text-align: center;
+}
